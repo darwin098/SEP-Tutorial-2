@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T01:03:37.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="e1fQc6LwqciOrzNwmNqo" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-09T01:06:23.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="oMeq1_8mEvrZlKEgC-VR" version="20.6.0" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Qns1">
     <mxGraphModel dx="2241" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -307,10 +307,10 @@
             <mxPoint x="210" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r7rBzXCk91YDlUQhDdr7-19" value="1. Select Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="65" y="145" width="110" height="30" as="geometry" />
+        <mxCell id="r7rBzXCk91YDlUQhDdr7-19" value="1. Begin the order process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="145" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r7rBzXCk91YDlUQhDdr7-21" value="1.1. requestProduct()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="r7rBzXCk91YDlUQhDdr7-21" value="1.1. promptTable()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="180" as="sourcePoint" />
             <mxPoint x="220" y="220" as="targetPoint" />
