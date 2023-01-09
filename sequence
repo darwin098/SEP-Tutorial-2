@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T01:41:54.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="xlMkmQWEyvHz0axY0li3" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-09T01:46:33.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="MexktgydtlhNtOkUBWeA" version="20.6.0" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Qns1">
     <mxGraphModel dx="2241" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -388,7 +388,7 @@
             <mxPoint x="-70" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DJIkjAqP3DeuR74NWSzs-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.25;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r7rBzXCk91YDlUQhDdr7-53">
+        <mxCell id="DJIkjAqP3DeuR74NWSzs-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.25;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.034;exitY=0.804;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r7rBzXCk91YDlUQhDdr7-2" target="r7rBzXCk91YDlUQhDdr7-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="215" y="392" as="sourcePoint" />
             <mxPoint x="-60" y="390" as="targetPoint" />
@@ -396,6 +396,15 @@
         </mxCell>
         <mxCell id="DJIkjAqP3DeuR74NWSzs-17" value="1.7. addSelectedDrink()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="368" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJIkjAqP3DeuR74NWSzs-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="475.06000000000006" as="sourcePoint" />
+            <mxPoint x="-70" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJIkjAqP3DeuR74NWSzs-19" value="1.8. Prompt for dishes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="450" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
