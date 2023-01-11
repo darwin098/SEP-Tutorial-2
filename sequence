@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T00:15:40.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="23_ESCkpm8_GxAVWrKu_" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-11T00:19:09.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="p4w9YZmxfJveAPhEtwux" version="20.6.0" type="github" pages="5">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Qns1">
     <mxGraphModel dx="2032" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -504,8 +504,8 @@
         </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.25;exitY=0.324;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xhVMzP59bZxXWLPYbO2n-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="47.5" y="422.88" as="sourcePoint" />
-            <mxPoint x="-120" y="423" as="targetPoint" />
+            <mxPoint x="47.5" y="445.88" as="sourcePoint" />
+            <mxPoint x="-120" y="446" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="xhVMzP59bZxXWLPYbO2n-1">
@@ -516,6 +516,16 @@
         </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-6" value="1.14. confirm order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xhVMzP59bZxXWLPYbO2n-1">
           <mxGeometry x="-95" y="700" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-40" value="4.1 confirmDrinkAvail()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xhVMzP59bZxXWLPYbO2n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.999999999999545" y="309.9999999999998" as="sourcePoint" />
+            <mxPoint x="59.999999999999545" y="330.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="310" />
+              <mxPoint x="140" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-7" value="Waiter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="80" width="30" height="60" as="geometry" />
@@ -579,6 +589,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-27" value="4.2. addSelectedDrink()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xhVMzP59bZxXWLPYbO2n-16">
+          <mxGeometry x="-130" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.267;exitY=0.356;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xhVMzP59bZxXWLPYbO2n-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-157.33000000000038" y="366.96000000000004" as="sourcePoint" />
+            <mxPoint x="50" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-19" value="1.2. promptTableNo()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="220" as="sourcePoint" />
@@ -589,7 +608,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-20" value="1.4. promptDrinkOrd()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-20" value="2.1. promptDrinkOrd()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="300" as="sourcePoint" />
             <mxPoint x="220" y="320.5" as="targetPoint" />
@@ -599,48 +618,39 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-21" value="1.5. Input Drink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="75" y="316" width="100" height="30" as="geometry" />
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-21" value="3. Enter requested Drinks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="316" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.388;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xhVMzP59bZxXWLPYbO2n-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="340" as="sourcePoint" />
+            <mxPoint x="40" y="345" as="sourcePoint" />
             <mxPoint x="34" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-23" value="2. Enter table Number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="255" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-24" value="1.6. confirmDrinkAvail()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="350" width="150" height="30" as="geometry" />
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-24" value="4. reply drink avail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.658;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.212;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xhVMzP59bZxXWLPYbO2n-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="380" as="sourcePoint" />
-            <mxPoint x="-70" y="380" as="targetPoint" />
+            <mxPoint x="-70" y="388" as="sourcePoint" />
+            <mxPoint x="-70" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.267;exitY=0.356;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xhVMzP59bZxXWLPYbO2n-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="392" as="sourcePoint" />
-            <mxPoint x="430" y="395" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-27" value="1.7. addSelectedDrink()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="368" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xhVMzP59bZxXWLPYbO2n-28" value="1.8. promptDishOrd()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="xhVMzP59bZxXWLPYbO2n-28" value="4.3. promptDishOrd()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="450" as="sourcePoint" />
-            <mxPoint x="220" y="470.5" as="targetPoint" />
+            <mxPoint x="220" y="487" as="sourcePoint" />
+            <mxPoint x="220" y="507.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="300" y="450" />
-              <mxPoint x="300" y="470" />
+              <mxPoint x="300" y="487" />
+              <mxPoint x="300" y="507" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-29" value="1.9. Input Dishes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="65" y="488" width="110" height="30" as="geometry" />
+          <mxGeometry x="65" y="511" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xhVMzP59bZxXWLPYbO2n-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.658;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
